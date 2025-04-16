@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nastra</title>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--My CSS-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Nastra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="product">
+            <div class="products-box">
+                <img src="./Media/pexels-tr-ng-nguy-n-thanh-2150411289-31583845.jpg" width="200" height="200">
+                <p>A-line dress</p>
+            </div>
+
+            <div class="products-box">
+                <img src="./Media/pexels-vika-glitter-392079-31595364.jpg" width="200" height="200">
+                <p>Bodycon dress</p>
+            </div>
+
+            <div class="products-box">
+                <img src="./Media/pexels-cottonbro-3419697.jpg" width="200" height="200">
+                <p>Party-wear</p>
+            </div>
+
+            <div class="products-box">
+                <img src="./Media/pexels-olly-3772511.jpg" width="200" height="200">
+                <p>Top &Skirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="./Media/pexels-israyosoy-31594626.jpg" width="200" height="200">
+                <p>Maxi Dress</p>
+            </div>
+
+            <div class="products-box">
+                <img src="./Media/pexels-heka-2555974-4151807.jpg" width="200" height="200">
+                <p>Long Gown</p>
+            </div>
+
+            <div class="products-box">
+                <img src="./Media/ao-dai-6182846_640.jpg" width="200" height="200">
+                <p>Maxi Dress</p>
+            </div>
+
+            <div class="products-box">
+                <img src="./Media/asian-1850944_640.jpg" width="200" height="200">
+                <p>A-line Kurta</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+
+
+<!--footer-->
+<div class="footer">
+    <div class="footer-container">
+        <h2 class="headingText">Nostra</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, quisquam</p>
+        <div class="footer-icon-container">
+            <i class="fa-brands fa-instagram" style="color:#ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color:#ffffff;"></i>
+            <i class="fa-brands fa-facebook" style="color:#ffffff;"></i>
+        </div>
+    </div>
+
+    <p>@2025 Nostra.com</p>
+</div>
+
+    
+
+    
+<script src="collection.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
